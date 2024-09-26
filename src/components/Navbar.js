@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
-  <Link class="navbar-brand" to="/main">E.T.S</Link>
+  <Link class="navbar-brand" to="/main">Academic Learning Portal</Link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

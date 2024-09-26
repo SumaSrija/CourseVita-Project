@@ -6,10 +6,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import About from './components/About';
-import Home from './components/Home';
 
 
 import CarouselFadeExample from './components/Main';
@@ -17,7 +15,6 @@ import Hero from './components/Hero';
 
 import Carding from './Cards/Carding';
 import Cardis from './components/Services';
-import Cardus from './components/Cardus';
 import Cardss from './components/Cardss';
 import Contact from './Contact';
 import {useState} from 'react';
@@ -54,47 +51,21 @@ function App() {
             <Register/>
           </Route>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <Route exact path="/about"><About/></Route>
           <Route exact path="/home"><CarouselFadeExample/> <Cardss/> </Route>
            <Route exact path="/login"><Login/></Route>
           <Route exact path="/contact"><Contact/></Route>
           <Route exact path="/rating"><Rating/></Route>
-          <Route exact path="/services"> <Cardis/> <Cardus/> </Route>
+          <Route exact path="/services"> <Cardis/> </Route>
     </Switch>
 
         </div>
         <Route exact path="/main">
         
-          <Hero/> <Picture/> <Carding/> <Footer/>
+          <Hero/> <Footer/>
         
       </Route>
         </Router>
-
-        
-      
-
-
-
-            
-
-      
-      
     </div>
   );
 }

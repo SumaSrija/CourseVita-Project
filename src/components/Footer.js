@@ -18,7 +18,7 @@ function Footer() {
       
       <div class="col-lg-4 col-md-6 mt-3" style={{paddingLeft:120,paddingBottom:70}}>
       <h3 class="h3-style">About Us</h3>
-      <p style={{paddingtop:20,fontweight:100}}>Our Wedding Decorator is a company based in the city of Vijaywada that can offer you a range of customised and specialised wedding decoration services to choose from. Weddings are one of the most festive and vibrant celebrations that you can witness in your life </p>
+      <p style={{paddingtop:20,fontweight:100}}>Our bot is designed to enhance various aspects of college life by providing seamless academic support and promoting events. It offers personalized event suggestions and enables social connections through virtual buddy systems and group chats. This makes it easier for students to stay informed, engaged, and connected with their peers, contributing to a more vibrant campus life. </p>
       <BsTwitter size={30} style={{paddingLeft:5}}/>
       <BsFacebook size={30} style={{paddingLeft:5}}/>
       <BsInstagram size={30} style={{paddingLeft:5}}/>
@@ -33,12 +33,12 @@ function Footer() {
 
         <li style={{marginLeft:-30,marginBottom:10}}>
         <GrMail/>
-        <span style={{paddingLeft:5}}>1234weddings@gmail.com</span>
+        <span style={{paddingLeft:5}}>learn.course@gmail.com</span>
         </li>
 
         <li style={{marginLeft:-30,marginBottom:10}}>
         <BsFillTelephoneFill/>
-        <span style={{paddingLeft:5}}>9866867309</span>
+        <span style={{paddingLeft:5}}>1234567890</span>
         </li>
 
       </ul>
