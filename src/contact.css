@@ -1,0 +1,41 @@
+.contacts {
+    position: relative;
+  }
+  .contacts img {
+    height: 100vh;
+    width: 50%;
+    
+  }
+  .contacts .Overlay {
+    opacity: 0.2;
+  }
+  .contacts .ContactContent {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+  }
+  .contacts .ContactContent form {
+    width: 500px;
+    background:white;
+    color:black;
+    padding: 20px;
+  }
+  .ContactContent .form-group {
+    margin: 15px auto;
+  }
+  .ContactContent form h6 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align-last: center;
+  }
+  .ContactContent .btn {
+    width: 100%;
+    color:white;
+    background:red;
+}
+h6{
+    font-family: 'Bungee';font-size: 22px;
+}
+.lion{
+    font-family: 'Bungee';
+}

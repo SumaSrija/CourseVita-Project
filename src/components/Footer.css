@@ -1,0 +1,11 @@
+.foot{
+    height: 400px;
+    width: auto;
+    background-color: black;
+    margin-top:0;
+    color: beige;
+}
+ul li {
+    list-style:none;
+  }
+  

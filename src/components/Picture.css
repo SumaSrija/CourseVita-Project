@@ -1,0 +1,21 @@
+.column {
+    float:left;
+    width:25%;
+    padding:5px;
+    margin-top:40px;
+    background-color: black;
+   
+  }
+  
+  
+  .desc{ padding:15px; 
+      text-align:center;
+      color:white
+   }
+   img{
+    height:200px;
+  
+   }
+   .column img{
+    padding-top: 30px;
+   }
